@@ -1,0 +1,21 @@
+#maze td {
+    border: 1px solid cadetblue;
+    width: 5px;
+    height: 5px;
+}
+
+.road {
+    background: cadetblue;
+}
+
+.step {
+    background: pink;
+}
+
+.result {
+    background: green;
+}
+
+.ed {
+    background: gray;
+}

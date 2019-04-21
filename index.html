@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Maze Generating</title>
+    <script src="script.js"></script>
+    <script src="search.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <form name="form">
+        <table border="0">
+        <tbody>
+            <tr>
+                <td>Rows:</td>
+                <td><input type="text" name="row"></td>
+            </tr>
+            <tr>
+                <td>Columns:</td>
+                <td><input type="text" name="column"></td>
+            </tr>
+        </tbody>
+        </table>
+        <input id="generateButton" type="button" onclick="generate()" value="Generate">
+        <input id="searchButton" type="button" onclick="search()" value="Search">
+    </form>
+    <table id="maze" cellspacing="0">
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+</html>
